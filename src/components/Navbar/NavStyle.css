@@ -1,0 +1,80 @@
+
+
+.lists {
+  position:relative;
+  top:14px; 
+}
+.lists > ul {
+ display :flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ gap: 3px;   
+}
+.lists > ul > li {
+   list-style: none;
+   height: 30px;
+   width: 120px;
+   border-top-right-radius: 8px;
+   border-top-left-radius: 8px;
+   background: #55829B; 
+}
+.lists > ul > li > a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 6px;
+}
+
+
+
+.img-adjust{
+    height: 50px;
+    width: 60px;
+
+}
+.logo-adjust{
+    height: 50px;  
+}
+
+.form-sys{
+    height: 1.5rem;
+    width: 1rem;
+    border-color: aqua;
+    
+} 
+/* .btn{
+    height: 30px;
+    width: 115px;
+    border-color:#6199b5;
+
+    
+} */
+.form-control
+{
+    display : inline-block;
+}
+/* Navbar.css */
+
+/* Custom styles if needed */
+.custom-search-input {
+    width: 150px;  /* Adjust width as needed */
+    height: 25px;  /* Adjust height as needed */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    
+}
+
+.dropdown-toggle::after {
+    display: none; /* Hide the default caret */
+}
+
+/* css for footer  */
+.custom-margin {
+    margin-top: 0.5rem; /* 32px */
+    margin-bottom: 2rem; /* 32px */
+    background-color: #EBEBEB;
+}
+

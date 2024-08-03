@@ -1,0 +1,15 @@
+.conten-container{
+    width: 100%;
+}
+.sectionTitle{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 7px ;
+    padding-left: 10px;
+    padding-top: 7px;
+    text-transform: uppercase;
+    background: #6199b5;
+    color: white;
+}
+
+
